@@ -1,7 +1,5 @@
 package strategy.character;
 
-import templatemethod.AbstractCharacter;
-
 public class Beginner extends Player {
 
     public Beginner(String name, int hp, int atk, int def) {
@@ -12,7 +10,6 @@ public class Beginner extends Player {
     protected int calClassWeight(int damage) {
         return (int) (damage * 1.1);
     }
-
 
 
     @Override
